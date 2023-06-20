@@ -1,5 +1,6 @@
 package hello.servlet;
 
+import hello.servlet.web.springmvc.v1.SpringMemberFromControllerV1;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
@@ -19,4 +20,8 @@ public class ServletApplication {
 		return new InternalResourceViewResolver("/WEB-INF/views", ".jsp");
 	}*/
 
+	/*@Bean
+	SpringMemberFromControllerV1 springMemberFromControllerV1(){
+		return new SpringMemberFromControllerV1();
+	}*/
 }
